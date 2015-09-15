@@ -1,0 +1,30 @@
+{
+  "name": "polygit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gronke/polygit.git"
+  },
+  "dependencies": {
+    "bowerJson": "bower/json",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-http-proxy": "^0.6.0",
+    "superagent": "^1.4.0"
+  },
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "author": "Stefan Grönke <stefan@gronke.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gronke/polygit/issues"
+  },
+  "homepage": "https://github.com/gronke/polygit#readme"
+}
