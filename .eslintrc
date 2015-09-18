@@ -1,0 +1,19 @@
+{
+  "ecmaFeatures": {
+    "modules": true,
+    "classes": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "strict": 0,
+    "quotes": [2, "single"],
+    "capIsNew": false
+  },
+  "globals": {
+    "Polymer": true
+  }
+}
