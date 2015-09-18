@@ -15,6 +15,8 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "express-http-proxy": "^0.6.0",
+    "gift": "^0.6.1",
+    "github": "^0.2.4",
     "superagent": "^1.4.0"
   },
   "keywords": [
@@ -26,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/gronke/polygit/issues"
   },
-  "homepage": "https://github.com/gronke/polygit#readme"
+  "homepage": "https://github.com/gronke/polygit#readme",
+  "engine": "4.1.0"
 }

@@ -1,0 +1,18 @@
+<dom-module id="x-foo">
+
+  <template>
+    <div id="foo"></div>
+  </template>
+
+  <script>
+
+    Polymer({
+      is: 'x-foo',
+      attached: function() {
+        this.$.foo.innerHTML = 'Hello World';
+      }
+    });
+
+  </script>
+
+</dom-module>
