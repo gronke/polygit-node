@@ -53,7 +53,7 @@ app.get('/*', function(req, res) {
   if(endpoint.path.includes('bower_components')) {
     console.log('ENDPOINT failed', endpoint.name);
     res.sendStatus(404);
-    res.end();
+    return res.end();
   }
 
   if(!registryComponent) {
