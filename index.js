@@ -50,6 +50,8 @@ app.get('/*', function(req, res) {
   var endpoint = parseUrl(req.url);
   var registryComponent = resolver.lookup(endpoint.path);
 
+  console.log('incoming request', req.url);
+
   if(endpoint.path.includes('bower_components')) {
     console.log('ENDPOINT failed', endpoint.name);
     res.sendStatus(404);
